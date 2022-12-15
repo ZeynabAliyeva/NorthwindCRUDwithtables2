@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    border: 5px solid rgb(210, 195, 195);
+}
+#name{
+    height: 30px;
+    width: 200px;
+}
+#description{
+    height: 30px;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.addBtn{
+width: 100px;
+height: 40px;
+}
